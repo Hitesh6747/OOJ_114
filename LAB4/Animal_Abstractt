@@ -1,0 +1,52 @@
+import java.util.*;
+abstract class Animal{
+abstract void eat();
+abstract void sleep();
+}
+
+class Lion extends Animal{
+    @Override
+void eat(){
+System.out.println("Lion is a carnivore");
+}
+@Override
+void sleep(){
+System.out.println("Lion sleeps in a den");
+}
+}
+class Tiger extends Animal{
+ @Override
+void eat (){
+System.out.println("Tiger is also a carnivore");
+}
+@Override
+void sleep(){
+System.out.println("Tiger sleeps in forest");
+}
+}
+
+class Deer extends Animal{
+    @Override
+void eat(){
+System.out.println("Deer is a herbivore");
+}
+@Override
+void sleep(){
+System.out.println("deer also sleeps in a forest ");
+}
+}
+ public class Animal_abstractt{
+public static void main(String  args[]){
+Lion lion= new Lion();
+Tiger tiger = new Tiger();
+Deer deer = new Deer();
+lion.eat();
+lion.sleep();
+tiger.eat();
+tiger.sleep();
+deer.eat();
+deer.sleep();
+System.out.println("HITESH SHARMA");
+System.out.println("1BM23CS114");
+}
+}
