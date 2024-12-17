@@ -29,7 +29,7 @@ public class DivCalc {
                     }
 
                     int result = num1 / num2;
-                    JOptionPane.showMessageDialog(frame, "Result: " + result + "\nName: Daivya Priyankkumar Shah\nUSN: 1BM23CS084", "Division Result", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(frame, "Result: " + result + "\nName: HITESH SHARMA\nUSN: 1BM23CS114", "Division Result", JOptionPane.INFORMATION_MESSAGE);
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(frame, "Please enter valid integers.", "Input Error", JOptionPane.ERROR_MESSAGE);
                 } catch (ArithmeticException ex) {
